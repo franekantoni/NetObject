@@ -1,5 +1,6 @@
 F.Szombara
-Implementation of Neural Net object using Python 3.6 and Tensorflow 1.6.0
+
+Implementation of Neural Net object using Python 3.6 and Tensorflow 1.6.0.
 Allows for faster building and training simple feed forward neural networks.
 Feel free to use the code however you want if you find it helpful.
 
