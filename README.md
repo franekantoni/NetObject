@@ -3,7 +3,7 @@ Implementation of Neural Net object using Python 3.6 and Tensorflow 1.6.0
 Allows for faster building and training simple feed forward neural networks.
 Feel free to use the code however you want if you find it helpful.
 
-__init__(self, layers_nodes, input_size, output_size):
+NetObject(self, layers_nodes, input_size, output_size):
 	
 	Creates layers of a neural in a form 
 	of dictionary where keys are the names of each layer in the format:
@@ -33,7 +33,7 @@ feed(self, x):
 
 	Reurns:
 	output layer of neural net
-	
+
 
 fit(self, train_x, train_y, test_x, test_y, hm_epochs=10, save_path="",batch_size=100):
 
